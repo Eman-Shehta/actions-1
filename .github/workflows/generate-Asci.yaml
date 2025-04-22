@@ -11,7 +11,7 @@ jobs:
             
         - name: Executin Shell Script
           run: |
-            chmod +x Ascii-script.sh
-            ./Ascii-script.sh
+            chmod +x .github/workflows/Ascii-script.sh
+            ./.github/workflows/Ascii-script.sh
         
             
