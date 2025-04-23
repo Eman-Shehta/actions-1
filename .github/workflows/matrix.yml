@@ -1,7 +1,8 @@
 name: matrx configuration
 on:
-   push
-   workflow_dispatch:
+ push
+ workflow_dispatch:
+
 jobs:
     deploy:
         strategy:
