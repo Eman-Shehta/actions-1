@@ -1,6 +1,6 @@
 name: manual test
 on:
-  workflow_dispatch:
+  push
 jobs:
   test:
     runson: ubuntu-latest
